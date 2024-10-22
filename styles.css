@@ -1,0 +1,52 @@
+
+body{
+   background-image:url(image2.jpeg) ;
+   color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    background-color: #d1cb26;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity {
+    width: 30px;
+    text-align: center;
+}
+
+.delete-item, .like-item {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.heart-icon {
+    font-size: 20px;
+    color: black;
+}
+
+.total-price {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
